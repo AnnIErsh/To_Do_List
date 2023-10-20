@@ -9,6 +9,12 @@ import SwiftUI
 
 @main
 struct To_DoApp: App {
+    @Configurated var config: ()
+    
+    init() {
+        config
+    }
+    
     var body: some Scene {
         WindowGroup {
             ContentView()

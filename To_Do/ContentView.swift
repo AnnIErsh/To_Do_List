@@ -8,14 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var taskViewModel: TaskViewModel = .init()
+    private var header: String = "To-Do List"
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text(header)
+                .font(.largeTitle)
+            TaskScreen()
         }
         .padding()
+        .environmentObject(taskViewModel)
     }
 }
 

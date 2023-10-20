@@ -3,22 +3,44 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E741F5352AE1AB1100F23573 /* DataPM in Frameworks */ = {isa = PBXBuildFile; productRef = E741F5342AE1AB1100F23573 /* DataPM */; };
+		E741F5402AE1B41F00F23573 /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E741F53F2AE1B41F00F23573 /* TaskModel.swift */; };
+		E741F5442AE1B73B00F23573 /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E741F5432AE1B73B00F23573 /* TaskViewModel.swift */; };
+		E741F5472AE1C99D00F23573 /* TaskModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E741F5452AE1C99D00F23573 /* TaskModel.xcdatamodeld */; };
+		E741F54A2AE1C9CF00F23573 /* TaskEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E741F5482AE1C9CF00F23573 /* TaskEntity+CoreDataClass.swift */; };
+		E741F54B2AE1C9CF00F23573 /* TaskEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E741F5492AE1C9CF00F23573 /* TaskEntity+CoreDataProperties.swift */; };
+		E741F54D2AE1D36100F23573 /* TaskScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E741F54C2AE1D36100F23573 /* TaskScreen.swift */; };
+		E7AE764E2AE08F7C00178396 /* Configurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AE764D2AE08F7C00178396 /* Configurator.swift */; };
+		E7AE76502AE08F9000178396 /* ServiceLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AE764F2AE08F9000178396 /* ServiceLocator.swift */; };
+		E7AE76522AE08FBD00178396 /* InjectedWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AE76512AE08FBD00178396 /* InjectedWrapper.swift */; };
 		E7C1F2792AD86E4300451386 /* To_DoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C1F2782AD86E4300451386 /* To_DoApp.swift */; };
 		E7C1F27B2AD86E4300451386 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C1F27A2AD86E4300451386 /* ContentView.swift */; };
 		E7C1F27D2AD86E4500451386 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7C1F27C2AD86E4500451386 /* Assets.xcassets */; };
 		E7C1F2802AD86E4500451386 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7C1F27F2AD86E4500451386 /* Preview Assets.xcassets */; };
+		E7C1F2872AD88FE600451386 /* UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C1F2862AD88FE600451386 /* UI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E741F5202AE194C400F23573 /* CoreDataPM */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = CoreDataPM; sourceTree = "<group>"; };
+		E741F53F2AE1B41F00F23573 /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
+		E741F5432AE1B73B00F23573 /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
+		E741F5462AE1C99D00F23573 /* TaskModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaskModel.xcdatamodel; sourceTree = "<group>"; };
+		E741F5482AE1C9CF00F23573 /* TaskEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TaskEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E741F5492AE1C9CF00F23573 /* TaskEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TaskEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E741F54C2AE1D36100F23573 /* TaskScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskScreen.swift; sourceTree = "<group>"; };
+		E7AE764D2AE08F7C00178396 /* Configurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configurator.swift; sourceTree = "<group>"; };
+		E7AE764F2AE08F9000178396 /* ServiceLocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLocator.swift; sourceTree = "<group>"; };
+		E7AE76512AE08FBD00178396 /* InjectedWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjectedWrapper.swift; sourceTree = "<group>"; };
 		E7C1F2752AD86E4300451386 /* To_Do.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = To_Do.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7C1F2782AD86E4300451386 /* To_DoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = To_DoApp.swift; sourceTree = "<group>"; };
 		E7C1F27A2AD86E4300451386 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E7C1F27C2AD86E4500451386 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7C1F27F2AD86E4500451386 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E7C1F2862AD88FE600451386 /* UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +48,64 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E741F5352AE1AB1100F23573 /* DataPM in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E741F51F2AE1944300F23573 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E741F5202AE194C400F23573 /* CoreDataPM */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E741F52E2AE1A6BF00F23573 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				E741F5482AE1C9CF00F23573 /* TaskEntity+CoreDataClass.swift */,
+				E741F5492AE1C9CF00F23573 /* TaskEntity+CoreDataProperties.swift */,
+				E741F5452AE1C99D00F23573 /* TaskModel.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		E741F53A2AE1B3B700F23573 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E741F53F2AE1B41F00F23573 /* TaskModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E741F5422AE1B72400F23573 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E741F5432AE1B73B00F23573 /* TaskViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E7AE764C2AE08F6000178396 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				E7AE764D2AE08F7C00178396 /* Configurator.swift */,
+				E7AE764F2AE08F9000178396 /* ServiceLocator.swift */,
+				E7AE76512AE08FBD00178396 /* InjectedWrapper.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
 		E7C1F26C2AD86E4300451386 = {
 			isa = PBXGroup;
 			children = (
+				E741F52E2AE1A6BF00F23573 /* CoreData */,
 				E7C1F2772AD86E4300451386 /* To_Do */,
 				E7C1F2762AD86E4300451386 /* Products */,
+				E741F51F2AE1944300F23573 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,10 +120,15 @@
 		E7C1F2772AD86E4300451386 /* To_Do */ = {
 			isa = PBXGroup;
 			children = (
+				E741F5422AE1B72400F23573 /* ViewModels */,
+				E741F53A2AE1B3B700F23573 /* Models */,
+				E7AE764C2AE08F6000178396 /* Configuration */,
+				E7C1F2862AD88FE600451386 /* UI.swift */,
 				E7C1F2782AD86E4300451386 /* To_DoApp.swift */,
 				E7C1F27A2AD86E4300451386 /* ContentView.swift */,
 				E7C1F27C2AD86E4500451386 /* Assets.xcassets */,
 				E7C1F27E2AD86E4500451386 /* Preview Content */,
+				E741F54C2AE1D36100F23573 /* TaskScreen.swift */,
 			);
 			path = To_Do;
 			sourceTree = "<group>";
@@ -83,6 +157,9 @@
 			dependencies = (
 			);
 			name = To_Do;
+			packageProductDependencies = (
+				E741F5342AE1AB1100F23573 /* DataPM */,
+			);
 			productName = To_Do;
 			productReference = E7C1F2752AD86E4300451386 /* To_Do.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +188,9 @@
 				Base,
 			);
 			mainGroup = E7C1F26C2AD86E4300451386;
+			packageReferences = (
+				E741F5332AE1AB1100F23573 /* XCLocalSwiftPackageReference "DataPM" */,
+			);
 			productRefGroup = E7C1F2762AD86E4300451386 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +217,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E741F5442AE1B73B00F23573 /* TaskViewModel.swift in Sources */,
+				E7AE764E2AE08F7C00178396 /* Configurator.swift in Sources */,
+				E741F5472AE1C99D00F23573 /* TaskModel.xcdatamodeld in Sources */,
+				E7AE76502AE08F9000178396 /* ServiceLocator.swift in Sources */,
+				E741F54B2AE1C9CF00F23573 /* TaskEntity+CoreDataProperties.swift in Sources */,
+				E741F5402AE1B41F00F23573 /* TaskModel.swift in Sources */,
 				E7C1F27B2AD86E4300451386 /* ContentView.swift in Sources */,
 				E7C1F2792AD86E4300451386 /* To_DoApp.swift in Sources */,
+				E7C1F2872AD88FE600451386 /* UI.swift in Sources */,
+				E7AE76522AE08FBD00178396 /* InjectedWrapper.swift in Sources */,
+				E741F54D2AE1D36100F23573 /* TaskScreen.swift in Sources */,
+				E741F54A2AE1C9CF00F23573 /* TaskEntity+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +434,33 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		E741F5332AE1AB1100F23573 /* XCLocalSwiftPackageReference "DataPM" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = DataPM;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E741F5342AE1AB1100F23573 /* DataPM */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DataPM;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		E741F5452AE1C99D00F23573 /* TaskModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E741F5462AE1C99D00F23573 /* TaskModel.xcdatamodel */,
+			);
+			currentVersion = E741F5462AE1C99D00F23573 /* TaskModel.xcdatamodel */;
+			path = TaskModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E7C1F26D2AD86E4300451386 /* Project object */;
 }
